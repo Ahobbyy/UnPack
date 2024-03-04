@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>HFF-Code-CSharp</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <TargetFramework>net35</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>Preview</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemGroup />
+  <ItemGroup>
+    <Reference Include="System.Core" />
+    <Reference Include="UnityEngine" />
+    <Reference Include="UnityEditor" />
+    <Reference Include="UnityEngine.UI" />
+    <Reference Include="ProBuilderCore-Unity5" />
+    <Reference Include="ProBuilderEditor-Unity5" />
+    <Reference Include="UnityEditor.UI" />
+    <Reference Include="System.Xml" />
+    <Reference Include="ProBuilderMeshOps-Unity5" />
+  </ItemGroup>
+</Project>

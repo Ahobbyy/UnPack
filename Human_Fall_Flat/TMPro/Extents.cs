@@ -1,0 +1,26 @@
+using UnityEngine;
+
+namespace TMPro
+{
+	public struct Extents
+	{
+		public Vector2 min;
+
+		public Vector2 max;
+
+		public Extents(Vector2 min, Vector2 max)
+		{
+			//IL_0001: Unknown result type (might be due to invalid IL or missing references)
+			//IL_0002: Unknown result type (might be due to invalid IL or missing references)
+			//IL_0008: Unknown result type (might be due to invalid IL or missing references)
+			//IL_0009: Unknown result type (might be due to invalid IL or missing references)
+			this.min = min;
+			this.max = max;
+		}
+
+		public override string ToString()
+		{
+			return "Min (" + min.x.ToString("f2") + ", " + min.y.ToString("f2") + ")   Max (" + max.x.ToString("f2") + ", " + max.y.ToString("f2") + ")";
+		}
+	}
+}
